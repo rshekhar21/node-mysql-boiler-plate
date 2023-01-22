@@ -1,0 +1,34 @@
+{
+  "name": "mysql-boiler-plate",
+  "version": "1.0.0",
+  "description": "node mysql backend boiler plate",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rshekhar21/node-mysql-boiler-plate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rshekhar21/node-mysql-boiler-plate/issues"
+  },
+  "homepage": "https://github.com/rshekhar21/node-mysql-boiler-plate#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "md5": "^2.3.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
